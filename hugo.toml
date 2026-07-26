@@ -55,7 +55,7 @@ reversepagetitle = true # When set to 'true', the Window Title will be reversed 
 # hidesidebar = true
 
 # Sidebar/Content Ratio
-contentratio = 0.8
+contentratio = 0.7
 
 [[params.socialIcons]]
 icon = "fas fa-envelope"
@@ -101,6 +101,26 @@ url = "https://www.instagram.com/"
 icon = "fa-solid fa-envelope"
 title = "e-mail"
 url = "mailto:mail@example.com"
+
+[menu]
+
+  [[menu.main]]
+  name = "Blogue"
+  identifier = "blogue"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Arquivo"
+  weight = 200
+  identifier = "arquivo"
+  url = "/posts/"
+
+  [[menu.main]]
+  name = "Bio"
+  weight = 300
+  identifier = "bio"
+  url = "/bio/"
 
 [mermaid]
 # enable = true
