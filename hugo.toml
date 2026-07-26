@@ -1,17 +1,19 @@
 baseURL = "https://goncalomira.github.io/"
 locale = "pt-pt"
 DefaultContentLanguage = "pt"
-title = "Gonçalo Mira"
+
 
 # theme as hugo module
 # theme = "github.com/lxndrblz/anatole"
 # theme as git submodule
 theme = "anatole"
 
-summarylength = 100
+summarylength = 10
 enableEmoji = true
 enableRobotsTXT = true
 
+[params]
+title = "Gonçalo Mira"
 author = "Gonçalo Mira"
 #copyright = "Gonçalo Mira © {{ YEAR }}"
 description = "um blogue de e sobre Gonçalo Mira"
