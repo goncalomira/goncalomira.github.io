@@ -1,0 +1,4 @@
+baseURL = 'https://goncalomira.github.io/'
+locale = 'pt-pt'
+title = 'Gonçalo Mira'
+theme = 'ananke'
