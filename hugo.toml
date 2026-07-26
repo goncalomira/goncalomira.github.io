@@ -12,12 +12,10 @@ summarylength = 100
 enableEmoji = true
 enableRobotsTXT = true
 
-
-title = "Gonçalo Mira"
-author = "Jane Doe"
+author = "Gonçalo Mira"
 #copyright = "Gonçalo Mira © {{ YEAR }}"
 description = "um blogue de e sobre Gonçalo Mira"
-profilePicture = "assets/images/profilgmirae.jpeg"
+profilePicture = "assets/images/gmira.jpeg"
 keywords = ""
 favicon = "favicons/"
 # example ["css/custom.css"]
