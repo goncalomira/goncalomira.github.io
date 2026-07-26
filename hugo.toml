@@ -5,6 +5,3 @@ theme = "hugo-theme-tokiwa"
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
-[module]
-[[module.imports]]
-  path = "github.com/heyeshuang/hugo-theme-tokiwa"
