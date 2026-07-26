@@ -17,7 +17,7 @@ title = "Gonçalo Mira"
 author = "Gonçalo Mira"
 #copyright = "Gonçalo Mira © {{ YEAR }}"
 description = "um blogue de e sobre Gonçalo Mira"
-profilePicture = "assets/images/gmira.jpeg"
+profilePicture = "/images/gmira.jpeg"
 keywords = ""
 favicon = "favicons/"
 # example ["css/custom.css"]
