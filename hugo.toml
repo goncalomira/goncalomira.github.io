@@ -1,78 +1,63 @@
-baseURL = 'https://goncalomira.github.io/'
-locale = 'pt-pt'
-title = 'Gonçalo Mira'
-theme = "hugo-theme-tokiwa"
-
-DefaultContentLanguage = "pt"
-author = "Gonçalo Mira"
+baseURL = "https://goncalomira.github.io/"
+DefaultContentLanguage = "en" # Theme's display language, supports: en, fr, zh, zh-hant
+languageCode = "pt-pt"
+title = "Gonçalo Mira"
 copyright = "Gonçalo Mira © 2026"
-disqusShortname = "Mira"
-enableInlineShortcodes = true
-footnoteReturnLinkContents = "^"
-hasCJKLanguage = true
-languageCode = "cn"
+theme = "diary"
+
+# Generate sitemap in the public folder
+[sitemap]
+  changefreq = "always"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+# Google Analytics
+[services]
+  [services.googleAnalytics]
+    id = "G-XXXXXXXXXX"  # Your Google Analytics ID
 
 [markup]
-[markup.highlight]
-style = "monokailight"
-
-[markup.goldmark.renderer]
-unsafe = true
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "perldoc"
+    tabWidth = 4
 
 [params]
-bannerFont = "fonts/exampleFont" 
-description = """
-Tokiwa-iro is the theme color of this site.
-""" 
-env = "production" # for Google Analytics and DISQUS.
-favicon = "img/favicon-32x32.png" 
-fuse = true # for searchbox. "JSON" must added to output contents. See [outputs].
-math = true # for introducing $KaTeX$
-useChineseFonts = true 
-postDateFormat = "2006-1-2"
+subtitle = "Teste."
+enableGitalk = false
+enableGiscus = true
 
-[menu]
-# Shown in the side menu.
-[[menu.main]]
-identifier = "post"
-name = "Posts"
-url = "/post/"
-weight = 1
-[[menu.main]]
-name = "Tags"
-url = "/tags/"
-weight = 2
-
-[[menu.main]]
-name = "Categories"
-url = "/categories/"
-weight = 2
-
-[[menu.main]]
-identifier = "about"
-name = "About"
-url = "/about/"
-weight = 3
 
 [taxonomies]
-category = "categories"
-series = "series"
-tag = "tags"
-[params.social]
-bilibili = "http://example.com/"
-github = "https://github.com/"
-gitlab = "https://gitlab.com/"
-instagram = "http://example.com/"
-mail = "mailto:anon@example.com"
-twitter = "https://twitter.com/"
-weibo = "http://example.com/"
-youtube = "https://youtube.com/"
-zhihu = "http://example.com/"
-# any icon in layouts/partials/svg can be used by the name without the "-line.svg"
+   tag = "tags"
+   category = "categories"
 
-[outputs]
-home = ["HTML", "RSS", "JSON"]
+[params.utterances]
+repo="your repo"
+term="[ENTER TERM HERE]"
+label="your label"
+theme="github-light"
 
-[caches]
-  [caches.images]
-    dir = ':cacheDir/images'
+
+[[menu.main]]
+url = "/categories"
+name = "Categories"
+weight = 2
+[[menu.main]]
+url = "/tags"
+name = "Tags"
+weight = 3
+[[menu.main]]
+url = "/posts"
+name = "Archive"
+weight = 1
+[[menu.main]]
+url = "/index.xml"
+name = "RSS Feed"
+weight = 4
