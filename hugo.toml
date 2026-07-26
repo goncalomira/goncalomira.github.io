@@ -57,6 +57,15 @@ reversepagetitle = true # When set to 'true', the Window Title will be reversed 
 # Sidebar/Content Ratio
 # contentratio = 0.6
 
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "email"
+url = "mailto:goncalomira@gmail.com"
+
+icon = "fas fa-instagram"
+title = "instagram"
+url = "https://instagram.com/comigranola"
+
 [simpleAnalytics]
 # enable = true
 # customurl = "https://analytics.example.com"
