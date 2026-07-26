@@ -40,7 +40,7 @@ listDateFormat = "2/1/2006"
 # Commento Comments
 # CommentoURL = "https://commento.example.com/js/commento.js"
 # Read More links for truncated summaries
-# readMore = true
+readMore = true
 # postSectionName = "blog"
 # relatedPosts = true
 # numberOfRelatedPosts = 3
@@ -55,7 +55,7 @@ reversepagetitle = true # When set to 'true', the Window Title will be reversed 
 # hidesidebar = true
 
 # Sidebar/Content Ratio
-# contentratio = 0.6
+contentratio = 0.8
 
 [[params.socialIcons]]
 icon = "fas fa-envelope"
